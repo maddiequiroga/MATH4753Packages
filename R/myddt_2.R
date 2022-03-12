@@ -11,6 +11,8 @@
 #' @examples
 #' \dontrun{
 #' myddt(ddt, "LENGTH", "WEIGHT", "CCATFISH", "RIVER")}
+#'
+#' @export
 myddt <- function(df, x, y, SPECIES, col){
   WEIGHT <-  LENGTH <- RIVER <- NULL
 

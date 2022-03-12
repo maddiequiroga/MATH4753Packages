@@ -26,4 +26,5 @@ myddt() for project 1
 \examples{
 \dontrun{
 myddt(ddt, "LENGTH", "WEIGHT", "CCATFISH", "RIVER")}
+
 }
