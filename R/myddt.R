@@ -1,33 +1,22 @@
-#' @title my ddt
-#' @description subsets ddt by species, plots the species, gives relative
-#' frequency table of river, and creates two csv files of ddt before and after subsetting
+
+#' myddt function
 #'
-#' @param df the ddt df
-#' @param spec the chosen species
+#' @param df datqframe
+#' @param spec chosen species
 #'
-#' @import dplyr
-#' @import ggplot2
-#' @import grDevices
-#' @import graphics
-#' @import utils
-#'
-#' @return plot of the given species, gives relative
-#' frequency table of river, and creates two csv files of ddt before and after subsetting
-#'
-#'
+#' @return a plot of the chosen species, the sf before and after subsetting,
+#' and a relative frequency table of rivers
 #' @export
 #'
-#'@examples
-#'\dontrun{
-#'myddt(df = ddt, spec  = "CCATFISH")}
-#'
-#'
-myddt <- function(df, spec){
+#' @examples
+#' /dontrun{
+#' myddt(df = ddt, specie = "CCATHFISH)
+#' }
+myddt <- function(df, species){
   RIVER <-  WEIGHT <- LENGTH <- NULL
 
   #subset ddt by species
-  df %>%
-    filter(ddt$SPECIES == {{spec}}) -> data
+  df %>% filter(ddt$SPECIES == {{species}}) -> data
 
   #write files after subsetting
   write.csv(data, paste('LvsWfor',spec,'.csv', sep=''))
