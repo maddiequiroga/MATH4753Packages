@@ -23,6 +23,8 @@
 #'
 #'
 myddt <- function(df, spec){
+  RIVER <-  WEIGHT <- LENGTH <- NULL
+
   #subset ddt by species
   df %>%
     filter(ddt$SPECIES == {{spec}}) -> data
