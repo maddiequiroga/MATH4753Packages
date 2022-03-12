@@ -9,4 +9,4 @@ Description: A collection on my functions for MATH4753.
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
-
+Imports: ggplot2, dplyr
