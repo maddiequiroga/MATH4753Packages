@@ -2,7 +2,7 @@
 % Please edit documentation in R/mycltu.R
 \name{mycltu}
 \alias{mycltu}
-\title{mycltu()}
+\title{mycltu}
 \usage{
 mycltu(n, iter, a = 0, b = 10)
 }
@@ -19,7 +19,7 @@ mycltu(n, iter, a = 0, b = 10)
 a histogram of the sum of uniforms
 }
 \description{
-mycltu()
+mycltu
 }
 \examples{
 dont run{

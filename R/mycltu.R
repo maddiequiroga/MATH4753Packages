@@ -1,4 +1,4 @@
-#' @title mycltu()
+#' @title mycltu
 #'
 #' @param n sample size
 #' @param iter number of iterations
