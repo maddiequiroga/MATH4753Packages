@@ -1,7 +1,7 @@
 Package: MATH4753QUIROGA
 Type: Package
-License: unliscensed
-Title: My Package for MATH4753
+License: GPL-3
+Title: My Package For MATH4753
 Version: 0.1.0
 Author: Madison Quiroga
 Maintainer: Madison Quiroga <madison.c.quiroga-1@ou.edu>
