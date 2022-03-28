@@ -21,8 +21,3 @@ a histogram of the sum of uniforms
 \description{
 mycltu
 }
-\examples{
-dont run{
-mycltu(n = 5, iter = 10000, a = 0, b = 10)
-}
-}

@@ -8,10 +8,6 @@
 #' @return a histogram of the sum of uniforms
 #' @export
 #'
-#' @examples
-#' dont run{
-#' mycltu(n = 5, iter = 10000, a = 0, b = 10)
-#' }
 mycltu=function(n,iter,a=0,b=10){
   y=runif(n*iter,a,b)
   data=matrix(y,nr=n,nc=iter,byrow=TRUE)
